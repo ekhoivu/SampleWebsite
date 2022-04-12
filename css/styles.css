@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html{
+    max-width: 1024px;
+    align-items: center;
+    align-content: center;
+    font-family: Raleway, sans-serif;
+}
+html p, table, form{
+    font-size: larger;
+} 
+form {
+    font-weight: 500;
+}
+.container-xl {
+    max-width: 95%;
+}
+div.form-group {
+    padding-top: 0.5em;
+}
+div.btn-group {
+    padding-top: 1em;
+}
+#main-form {
+    padding-top: 1em;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px #9eeaff;
+    font-weight: 700;
+}
+#main-photo {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    max-width: 44%;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(96, 170, 255, 0.2));
+}
+#introduction-section{
+    text-align: center;
+}
+#top-buttons{
+    padding-bottom: 1em;
+}
+#story-section{
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#story-section h2 {
+    font-size: 1.5em;
+}
+#info-table {
+    margin-right: 10px;
+}
+#basic-info-table {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#form-contact-me {
+    margin-top: 2em;
+}
+#photo-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.education{
+    margin: 10%;
+}
+#contact-final-buttons {
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.btn-group{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+}
+.btn btn-primary {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#khoi{
+    font-size: xxx-large;
+    font-weight: 700;
+}
+hr {
+    border: 1.5px solid rgb(29, 255, 199);
+}
