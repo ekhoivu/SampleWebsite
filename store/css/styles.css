@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif;
+}
+html {
+  background-image: url("background7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner {
+  display: flex;
+  justify-content: center;
+}
+#banner img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.web_title {
+  font-family: "Alata", serif;
+}
+header h1 {
+  font-size: 7em;
+  text-align: center;
+}
+header p {
+  font-family: "Passions Conflict", serif;
+  font-size: 6em;
+  text-align: center;
+  margin-top: 0em;
+}
+menu {
+  display: flex;
+  align-content: center;
+}
+body {
+  max-width: 75%;
+  align-items: center;
+  margin: auto;
+  color: #4a4a4a;
+  background: linear-gradient(
+    to bottom right,
+    rgb(252, 242, 242),
+    rgb(228, 209, 185),
+    rgb(196, 152, 130),
+    rgb(228, 209, 185)
+  );
+  padding: 13px;
+}
+#selected-category {
+  font-size: 3em;
+  text-align: center;
+}
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #a97155;
+  color: #f9f9f9;
+  border-radius: 1px;
+  border: 2px solid #e4d1b9;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+.button:focus:enabled,
+.button:hover:enabled,
+button:focus:enabled,
+button:hover:enabled,
+input[type="submit"]:focus:enabled,
+input[type="submit"]:hover:enabled,
+input[type="reset"]:focus:enabled,
+input[type="reset"]:hover:enabled,
+input[type="button"]:focus:enabled,
+input[type="button"]:hover:enabled {
+  background-color: #e4d1b9;
+  border-color: #be8c63;
+  color: #a97155;
+  outline: 0;
+  font-weight: 700;
+}
+nav {
+  display: flexbox;
+  gap: 13px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+#category-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 13px;
+}
+.card {
+  flex: 20%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0;
+  padding: 10px;
+  background-color: rgb(252, 250, 232);
+}
+.card-image {
+  max-width: 100%;
+  max-height: 600px;
+  height: auto;
+}
+.card h2 {
+  font-size: 2em;
+  color: #6e4936;
+}
+.card p {
+  font-size: 1.5em;
+  color: #6e4936;
+}
+.card span {
+  font-size: 1.5em;
+  color: #6e4936;
+  font-style: italic;
+  bottom: 2px;
+}
+hr {
+  border-color: #6e4936;
+}
